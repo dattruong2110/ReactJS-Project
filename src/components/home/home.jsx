@@ -1,5 +1,6 @@
 import './home.css';
 import React from 'react';
+import '../base/base.css';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 
@@ -10,9 +11,13 @@ export function CoursesItem({
 }) {
   return (
     <div className='courses col-md-6'>
-      <img src={image} className='course-image' alt={title} />
-      <h2 className='course-title'>{title}</h2>
-      <p className='course-description'>{description}</p>
+      <div className='card card-style'>
+        <div className='card-body'>
+          <img src={image} className='course-image' alt={title} />
+          <h2 className='course-title'>{title}</h2>
+          <p className='course-description'>{description}</p>
+        </div>
+      </div>
     </div>
   );
 }
@@ -30,7 +35,7 @@ export function AppCounter() {
 
   return (
     <div className='App' style={{ marginBottom: 20 }}>
-      <h2>Counter Feature</h2>
+      <h2>Counter Price</h2>
       <h3>{ counter }</h3>
       <Button onClick={handleIncrease} variant="outline-info">Increase</Button>
     </div>

@@ -9,12 +9,12 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <div className='container '>
+      <div className='container'>
         <div className='row'>
           <CoursesItem
             image="https://www.obg.eu.com/img/technologies/react.png"
             title="This is my project with ReactJS"
-            description="This is a project built using ReactJS"
+            description="This is a project built using ReactJS "
           />
 
           <CoursesItem
