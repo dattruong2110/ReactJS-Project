@@ -1,5 +1,6 @@
 .card-style {
-    width: 500px;
+    width: 100%;
+    height: 100%;
 }
 
 .courses {
@@ -10,4 +11,5 @@
 .course-image {
     width: 300px;
     height: 300px;
+    text-align: center;
 }
