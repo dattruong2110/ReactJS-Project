@@ -1,0 +1,16 @@
+.navbar-logo-img {
+  width: 65px;
+}
+
+.feature {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
+}
