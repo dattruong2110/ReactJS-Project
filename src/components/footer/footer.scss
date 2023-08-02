@@ -1,13 +1,15 @@
+$footerTextColor: #333;
+
 .footer-resource {
-    color: #333;
-    font-weight: 500;
+  color: $footerTextColor;
+  font-weight: 500;
 }
 
 .link-store {
-    color: #333;
+  color: $footerTextColor;
 }
 
 .link-store:hover {
-    color: #777777;
-    text-decoration: none;
+  color: #777777;
+  text-decoration: none;
 }

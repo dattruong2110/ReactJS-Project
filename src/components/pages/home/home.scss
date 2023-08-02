@@ -1,29 +1,63 @@
+$titleFont: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+$descriptionFont: Arial, Helvetica, sans-serif;
+$standardFontSize: 1.2rem;
+
 .card-style {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .items {
-    margin: 10px 0;
-    width: 100%;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.card-bottom {
+  margin-top: 10px;
 }
 
 .item-title {
-    font-size: 1.6rem;
-    font-weight: 700;
+  font-family: $titleFont;
+  font-size: #{$standardFontSize + 0.4rem};
+  font-weight: 700;
 }
-  
+
 .item-image {
-    width: 100%;
-    height: 500px;
-    text-align: center;
+  width: 100%;
+  height: 500px;
+  text-align: center;
 }
 
 .item-price {
-    font-size: 1.2rem;
-    font-weight: 600;
+  font-family: cursive;
+  font-size: $standardFontSize;
+  font-weight: 600;
 }
 
 .item-description {
-    font-size: 1.2rem;
+  font-family: $descriptionFont;
+  font-size: $standardFontSize;
+}
+
+@media only screen and (min-width: 721px) and (max-width: 920px) {
+  .item-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .item-title {
+    font-family: $titleFont;
+    font-size: $standardFontSize;
+    font-weight: 700;
+  }
+
+  .item-price {
+    font-family: cursive;
+    font-size: #{$standardFontSize - 0.2rem};
+    font-weight: 600;
+  }
+
+  .item-description {
+    display: none;
+  }
 }
