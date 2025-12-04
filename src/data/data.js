@@ -23,13 +23,13 @@ export const data = [
   },
   {
     id: "DJ4891-061",
-    name: "Jordan 1 Retro High OG Varsity Red",
-    path: "jordan-1-retro-high-og-varsity-red",
-    image: "https://sneakerdaily.vn/wp-content/uploads/2022/08/WMNS-Air-Jordan-1-High-OG-Newstalgia-Chenille-DJ4891-061.jpg",
-    color: "White/Varsity Red",
+    name: "Nike Air Force 1 Low ‘Year of the Snake’",
+    path: "nike-air-force-1-low-year-of-the-snake",
+    image: "https://sneakerdaily.vn/wp-content/uploads/2024/12/Giay-Nike-Air-Force-1-Low-Year-of-the-Snake-HV5990-172.jpg",
+    color: "Sail/Team Gold-Light Khaki-Parachute Beige-University Red-Metallic Gold",
     details:
-      "A collegiate-spin on Michael Jordan’s original signature model, the upcoming retro indulges in a team-friendly red and “Light Iron Ore” combination, with the latter tone taking over smooth leather collar panels.",
-    price: "$180",
+      "Each year, footwear brands from across the globe celebrate the Chinese New Year with sneaker releases. Previews of Nike’s plans have already hit the internet, as we’ve seen the Dunk Low, Air Force 1 Low, and two Kobe 5s, one in Red and the other in Eggplant, all honoring the Year of the Snake. Now, mirroring the men’s AF1, a women’s exclusive Air Force 1 Low Year of the Snake has appeared.",
+    price: "$135",
   },
   {
     id: "555088-706",
