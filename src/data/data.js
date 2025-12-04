@@ -25,7 +25,7 @@ export const data = [
     id: "DJ4891-061",
     name: "Jordan 1 Retro High OG Varsity Red",
     path: "jordan-1-retro-high-og-varsity-red",
-    image: "https://www.nakedcph.com/images/55873/product.jpg",
+    image: "https://sneakerdaily.vn/wp-content/uploads/2022/08/WMNS-Air-Jordan-1-High-OG-Newstalgia-Chenille-DJ4891-061.jpg",
     color: "White/Varsity Red",
     details:
       "A collegiate-spin on Michael Jordan’s original signature model, the upcoming retro indulges in a team-friendly red and “Light Iron Ore” combination, with the latter tone taking over smooth leather collar panels.",
